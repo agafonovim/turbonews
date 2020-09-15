@@ -6,6 +6,7 @@ import './App.scss';
 import Footer from "../footer/Footer.jsx";
 import Sidebar from "../sidebar/Sidebar.jsx";
 import Header from "../header/Header.jsx";
+import Main from "../main/Main.jsx";
 
 /**
  * Родительский компонент приложения
@@ -16,7 +17,7 @@ const App = () => (
             <Sidebar />
             <div className="main-container">
                 <Header />
-                <main></main>
+                <Main />
             </div>
         </div>
         <Footer />
