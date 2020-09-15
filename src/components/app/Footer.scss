@@ -1,0 +1,18 @@
+.footer {
+  height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  line-height: 1.2;
+  padding: 0 20px;
+
+  &_link {
+    color: #43BEF6;
+    text-decoration: none;
+
+    &:hover {
+      color: #44a0f6;
+    }
+  }
+}
