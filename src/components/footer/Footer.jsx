@@ -2,6 +2,9 @@ import React from 'react';
 
 import './Footer.scss';
 
+/**
+ * Блок в нижней части страницы (подвал)
+ */
 const Footer = () => (
     <footer className="footer">
         <div className="footer__copyright">
