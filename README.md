@@ -1,2 +1,5 @@
-# turbonews
-Test task
+# Turbonews - RSS-лента в панели управления
+
+
+Для запуска можно использовать: ```node server.js```
+Приложение можно будет открыть по адресу: [localhost:3000](http://localhost:3000)
