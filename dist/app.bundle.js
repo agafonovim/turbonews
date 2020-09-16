@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 8);
+/******/ 	return __webpack_require__(__webpack_require__.s = 15);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -606,6 +606,48 @@ exports.unstable_shouldYield=function(){var a=exports.unstable_now();V(a);var b=
 
 /***/ }),
 /* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -620,15 +662,328 @@ var react_default = /*#__PURE__*/__webpack_require__.n(react);
 var react_dom = __webpack_require__(2);
 var react_dom_default = /*#__PURE__*/__webpack_require__.n(react_dom);
 
-// EXTERNAL MODULE: ./src/components/app/App.scss
-var app_App = __webpack_require__(7);
+// EXTERNAL MODULE: ./node_modules/normalize.css/normalize.css
+var normalize = __webpack_require__(7);
 
+// EXTERNAL MODULE: ./src/components/app/App.scss
+var app_App = __webpack_require__(8);
+
+// EXTERNAL MODULE: ./src/components/footer/Footer.scss
+var footer_Footer = __webpack_require__(9);
+
+// CONCATENATED MODULE: ./src/components/footer/Footer.jsx
+
+
+/**
+ * Блок в нижней части страницы (подвал)
+ */
+
+var Footer_Footer = function Footer() {
+  return /*#__PURE__*/react_default.a.createElement("footer", {
+    className: "footer"
+  }, /*#__PURE__*/react_default.a.createElement("div", {
+    className: "footer__copyright"
+  }, /*#__PURE__*/react_default.a.createElement("p", null, "\xA9 2001\u20132020 \u041E\u041E\u041E ", /*#__PURE__*/react_default.a.createElement("a", {
+    href: "#",
+    className: "footer_link"
+  }, "\xAB\u0421\u043F\u0435\u0439\u0441\u0412\u044D\u0431\xBB"), " ", /*#__PURE__*/react_default.a.createElement("br", null), "\u0412\u0441\u0435 \u043F\u0440\u0430\u0432\u0430 \u0437\u0430\u0449\u0438\u0449\u0435\u043D\u044B. ", /*#__PURE__*/react_default.a.createElement("br", null), "\u041B\u0438\u0446\u0435\u043D\u0437\u0438\u044F ", /*#__PURE__*/react_default.a.createElement("a", {
+    href: "#",
+    className: "footer_link"
+  }, "\u2116163230"))), /*#__PURE__*/react_default.a.createElement("div", {
+    className: "footer__phones"
+  }, /*#__PURE__*/react_default.a.createElement("p", null, /*#__PURE__*/react_default.a.createElement("a", {
+    href: "tel:+78123341222",
+    className: "footer_link"
+  }, "+7 (812) 334-12-22"), " (\u0432 \u0421\u0430\u043D\u043A\u0442-\u041F\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433\u0435) ", /*#__PURE__*/react_default.a.createElement("br", null), /*#__PURE__*/react_default.a.createElement("a", {
+    href: "tel:+74956631612",
+    className: "footer_link"
+  }, "+7 (495) 663-16-12"), " (\u0432 \u041C\u043E\u0441\u043A\u0432\u0435) ", /*#__PURE__*/react_default.a.createElement("br", null), /*#__PURE__*/react_default.a.createElement("a", {
+    href: "tel:+78001001615",
+    className: "footer_link"
+  }, "8 (800) 100-16-15"), " (\u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E \u043F\u043E \u0420\u043E\u0441\u0441\u0438\u0438)")));
+};
+
+/* harmony default export */ var components_footer_Footer = (Footer_Footer);
+// EXTERNAL MODULE: ./src/components/sidebar/Sidebar.scss
+var sidebar_Sidebar = __webpack_require__(10);
+
+// CONCATENATED MODULE: ./src/assets/img/logotype.svg
+/* harmony default export */ var logotype = (__webpack_require__.p + "assets/images/55ea3e54210bf7ef4dfdbf42181a74d6.svg");
+// EXTERNAL MODULE: ./src/components/sidebar/menuItem/MenuItem.scss
+var menuItem_MenuItem = __webpack_require__(11);
+
+// CONCATENATED MODULE: ./src/components/sidebar/menuItem/MenuItem.jsx
+
+
+/**
+ * Элемент навигации в меню
+ *
+ * @component
+ * @param   {string} icon  CSS класс иконки
+ * @param   {string} text  Текст кнопки
+ * @param   {boolean} active Активный элемент
+ * @return   {function}
+ */
+
+var MenuItem_MenuItem = function MenuItem(_ref) {
+  var icon = _ref.icon,
+      text = _ref.text,
+      active = _ref.active;
+
+  var cn = function cn() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return args.filter(Boolean).join(' ');
+  };
+
+  return /*#__PURE__*/react_default.a.createElement("li", {
+    className: "menu-item"
+  }, /*#__PURE__*/react_default.a.createElement("a", {
+    href: "#",
+    className: "menu-item__link ".concat(cn(active && "active"))
+  }, /*#__PURE__*/react_default.a.createElement("i", {
+    className: icon
+  }), " ", text));
+};
+
+/* harmony default export */ var sidebar_menuItem_MenuItem = (MenuItem_MenuItem);
+// CONCATENATED MODULE: ./src/components/sidebar/Sidebar.jsx
+
+
+
+
+/**
+ * Блок в левой части страницы
+ */
+
+var Sidebar_Sidebar = function Sidebar() {
+  return /*#__PURE__*/react_default.a.createElement("aside", {
+    className: "sidebar"
+  }, /*#__PURE__*/react_default.a.createElement("div", {
+    className: "logo"
+  }, /*#__PURE__*/react_default.a.createElement("a", {
+    href: "https://sweb.ru"
+  }, /*#__PURE__*/react_default.a.createElement("img", {
+    src: logotype,
+    alt: "\u0421\u043F\u0435\u0439\u0441\u0412\u044D\u0431"
+  }))), /*#__PURE__*/react_default.a.createElement("nav", {
+    className: "menu"
+  }, /*#__PURE__*/react_default.a.createElement("ul", {
+    className: "menu-list"
+  }, /*#__PURE__*/react_default.a.createElement(sidebar_menuItem_MenuItem, {
+    icon: "account",
+    text: "\u0410\u043A\u043A\u0430\u0443\u043D\u0442"
+  }), /*#__PURE__*/react_default.a.createElement(sidebar_menuItem_MenuItem, {
+    icon: "vps",
+    text: "VPS"
+  }), /*#__PURE__*/react_default.a.createElement(sidebar_menuItem_MenuItem, {
+    icon: "domains",
+    text: "\u0414\u043E\u043C\u0435\u043D\u044B"
+  }), /*#__PURE__*/react_default.a.createElement(sidebar_menuItem_MenuItem, {
+    icon: "help",
+    text: "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430",
+    active: true
+  }))));
+};
+
+/* harmony default export */ var components_sidebar_Sidebar = (Sidebar_Sidebar);
+// EXTERNAL MODULE: ./src/components/header/Header.scss
+var header_Header = __webpack_require__(12);
+
+// CONCATENATED MODULE: ./src/components/header/Header.jsx
+
+
+/**
+ * Шапка страницы
+ */
+
+var Header_Header = function Header() {
+  return /*#__PURE__*/react_default.a.createElement("header", {
+    className: "header"
+  }, /*#__PURE__*/react_default.a.createElement("div", {
+    className: "user-panel"
+  }, /*#__PURE__*/react_default.a.createElement("ul", {
+    className: "user-panel__list"
+  }, /*#__PURE__*/react_default.a.createElement("li", {
+    className: "user-panel__list-item"
+  }, "100.00 \u20BD"), /*#__PURE__*/react_default.a.createElement("li", {
+    className: "user-panel__list-item"
+  }, "username"), /*#__PURE__*/react_default.a.createElement("li", {
+    className: "user-panel__list-item"
+  }, "\u0412\u044B\u0439\u0442\u0438"))));
+};
+
+/* harmony default export */ var components_header_Header = (Header_Header);
+// EXTERNAL MODULE: ./src/components/main/Main.scss
+var main_Main = __webpack_require__(13);
+
+// EXTERNAL MODULE: ./src/components/main/ticket/Ticket.scss
+var ticket_Ticket = __webpack_require__(14);
+
+// CONCATENATED MODULE: ./src/components/main/ticket/Ticket.jsx
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+/**
+ * Тикеты в поддержке
+ *
+ * @component
+ * @param   {string} title  Заголовок статьи
+ * @param   {string} text  Текст статьи
+ * @return   {function}
+ */
+
+var Ticket_Ticket = function Ticket(_ref) {
+  var title = _ref.title,
+      text = _ref.text;
+
+  var _useState = Object(react["useState"])(false),
+      _useState2 = _slicedToArray(_useState, 2),
+      isOpen = _useState2[0],
+      setIsOpen = _useState2[1];
+
+  var toggle = function toggle() {
+    return setIsOpen(!isOpen);
+  };
+
+  var cn = function cn() {
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return args.filter(Boolean).join(' ');
+  };
+
+  return /*#__PURE__*/react_default.a.createElement("div", {
+    className: "ticket"
+  }, /*#__PURE__*/react_default.a.createElement("button", {
+    className: "toggle-btn ".concat(cn(isOpen && "active")),
+    onClick: toggle
+  }, /*#__PURE__*/react_default.a.createElement("span", {
+    className: "toggle-btn__title"
+  }, title), /*#__PURE__*/react_default.a.createElement("i", {
+    className: "toggle-btn__icon ".concat(cn(isOpen && "close"))
+  })), !isOpen ? null : /*#__PURE__*/react_default.a.createElement("div", {
+    className: "ticket-info"
+  }, /*#__PURE__*/react_default.a.createElement("div", {
+    dangerouslySetInnerHTML: {
+      __html: text
+    }
+  })));
+};
+
+/* harmony default export */ var main_ticket_Ticket = (Ticket_Ticket);
+// CONCATENATED MODULE: ./src/components/main/Main.jsx
+function Main_slicedToArray(arr, i) { return Main_arrayWithHoles(arr) || Main_iterableToArrayLimit(arr, i) || Main_unsupportedIterableToArray(arr, i) || Main_nonIterableRest(); }
+
+function Main_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function Main_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return Main_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return Main_arrayLikeToArray(o, minLen); }
+
+function Main_arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function Main_iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function Main_arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+/**
+ * Контейнер с основным содержимым
+ */
+
+var Main_Main = function Main() {
+  var _useState = Object(react["useState"])([]),
+      _useState2 = Main_slicedToArray(_useState, 2),
+      data = _useState2[0],
+      setData = _useState2[1];
+
+  Object(react["useEffect"])(function () {
+    var fetchData = function fetchData() {
+      var RSS_URL = "https://sweb.ru/export/turbojournal/";
+      fetch(RSS_URL).then(function (response) {
+        return response.text();
+      }).then(function (str) {
+        return new window.DOMParser().parseFromString(str, "text/xml");
+      }).then(function (result) {
+        setData(Array.from(result.querySelectorAll("item")));
+      });
+    };
+
+    fetchData();
+  });
+  return /*#__PURE__*/react_default.a.createElement("main", {
+    className: "main"
+  }, /*#__PURE__*/react_default.a.createElement("div", {
+    className: "content"
+  }, /*#__PURE__*/react_default.a.createElement("div", {
+    className: "content__page-headers"
+  }, /*#__PURE__*/react_default.a.createElement("span", {
+    className: "mute-title"
+  }, "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430"), /*#__PURE__*/react_default.a.createElement("h1", {
+    className: "title"
+  }, "\u041F\u043E\u0434\u0434\u0435\u0440\u0436\u043A\u0430")), /*#__PURE__*/react_default.a.createElement("div", {
+    className: "navbar"
+  }, /*#__PURE__*/react_default.a.createElement("ul", {
+    className: "navbar__list"
+  }, /*#__PURE__*/react_default.a.createElement("li", {
+    className: "item"
+  }, /*#__PURE__*/react_default.a.createElement("a", {
+    href: "#",
+    className: "link"
+  }, "\u0417\u0430\u044F\u0432\u043A\u0430")), /*#__PURE__*/react_default.a.createElement("li", {
+    className: "item"
+  }, /*#__PURE__*/react_default.a.createElement("a", {
+    href: "#",
+    className: "link"
+  }, "\u0428\u0430\u0431\u043B\u043E\u043D\u044B")), /*#__PURE__*/react_default.a.createElement("li", {
+    className: "item"
+  }, /*#__PURE__*/react_default.a.createElement("a", {
+    href: "#",
+    className: "link active"
+  }, "\u0418\u0441\u0442\u043E\u0440\u0438\u044F \u0437\u0430\u044F\u0432\u043E\u043A")))), /*#__PURE__*/react_default.a.createElement("div", {
+    className: "tickets"
+  }, data.map(function (item) {
+    return /*#__PURE__*/react_default.a.createElement(main_ticket_Ticket, {
+      title: item.querySelector("title").innerHTML,
+      text: item.querySelector("content").innerHTML.substring(0)
+    });
+  }))));
+};
+
+/* harmony default export */ var components_main_Main = (Main_Main);
 // CONCATENATED MODULE: ./src/components/app/App.jsx
 
 
 
+
+
+
+
+/**
+ * Родительский компонент приложения
+ */
+
 var App_App = function App() {
-  return /*#__PURE__*/react_default.a.createElement("h1", null, "Hello world!");
+  return /*#__PURE__*/react_default.a.createElement(react_default.a.Fragment, null, /*#__PURE__*/react_default.a.createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react_default.a.createElement(components_sidebar_Sidebar, null), /*#__PURE__*/react_default.a.createElement("div", {
+    className: "main-container"
+  }, /*#__PURE__*/react_default.a.createElement(components_header_Header, null), /*#__PURE__*/react_default.a.createElement(components_main_Main, null))), /*#__PURE__*/react_default.a.createElement(components_footer_Footer, null));
 };
 
 /* harmony default export */ var components_app_App = (App_App);

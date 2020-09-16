@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12px" height="20px" viewBox="0 0 12 20" version="1.1">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>down-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UIKit-/-Компоненты" transform="translate(-2471.000000, -666.000000)" fill="#6BBBF1" fill-rule="nonzero" stroke="#6BBBF1">
+            <g id="down-arrow" transform="translate(2477.000000, 675.500000) rotate(-90.000000) translate(-2477.000000, -675.500000) translate(2467.500000, 670.500000)">
+                <path d="M18.2325726,0.193236715 C17.9786812,-0.0644122383 17.5661078,-0.0644122383 17.3122164,0.193236715 L9.21942964,8.42190016 L1.11077466,0.193236715 C0.856883306,-0.0644122383 0.444309862,-0.0644122383 0.190418512,0.193236715 C-0.0634728375,0.450885668 -0.0634728375,0.869565217 0.190418512,1.12721417 L8.74338336,9.80676329 C8.87032903,9.93558776 9.02901113,10 9.20356143,10 C9.36224352,10 9.53679383,9.93558776 9.6637395,9.80676329 L18.2167043,1.12721417 C18.4864639,0.869565217 18.4864639,0.450885668 18.2325726,0.193236715 Z" id="Shape"/>
+            </g>
+        </g>
+    </g>
+</svg>
