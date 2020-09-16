@@ -9,7 +9,7 @@ import './MenuItem.scss';
  * @param   {string} icon  CSS класс иконки
  * @param   {string} text  Текст кнопки
  * @param   {boolean} active Активный элемент
- * @return   {string}
+ * @return   {function}
  */
 const MenuItem = ({icon, text, active}) => {
     const cn = (...args) => args.filter(Boolean).join(' ');

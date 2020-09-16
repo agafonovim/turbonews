@@ -6,5 +6,10 @@ module.exports = merge(common, {
     devtool: 'inline-source-map',
     devServer: {
         contentBase: './dist',
+        allowedHosts: [
+            'https://sweb.ru',
+            'sweb.ru',
+            'localhost'
+        ]
     },
 });

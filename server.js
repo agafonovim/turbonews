@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 

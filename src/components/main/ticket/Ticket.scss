@@ -1,0 +1,54 @@
+.ticket {
+  margin: 0 -20px;
+
+  &:last-child {
+    .toggle-btn {
+      border-bottom: 0;
+    }
+  }
+
+  .toggle-btn {
+    width: 100%;
+    display: inline-flex;
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+    padding: 20px 20px;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: #F7FAFB solid 1px;
+
+    &:hover, &.active {
+      background-color: #F3FCFF;
+    }
+    &.active {
+      border: 0;
+    }
+
+    &__title {
+      font-size: 16px;
+    }
+
+    &__icon {
+      background: url("../../../assets/img/icons/arrow.svg");
+      background-size: contain;
+      width: 9px;
+      height: 15px;
+      transform: rotate(90deg);
+      margin-right: 5px;
+
+      &.close {
+        transform: rotate(-90deg);
+      }
+    }
+  }
+
+  .ticket-info {
+    padding: 5px 20px;
+    background-color: #F3FCFF;
+
+    img {
+      width: 100%;
+    }
+  }
+}
