@@ -1,7 +1,25 @@
 .header {
   height: 60px;
+  width: 100%;
   display: flex;
-  align-items: end;
+  padding: 0 20px;
 
+  .user-panel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 
+    &__list {
+      padding: 0;
+      list-style: none;
+      display: inline-flex;
+      gap: 40px;
+
+      &-item {
+        font-size: 12px;
+        color: #7A8185;
+      }
+    }
+  }
 }
