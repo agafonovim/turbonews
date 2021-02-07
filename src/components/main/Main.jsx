@@ -11,7 +11,7 @@ const Main = () => {
 
     useEffect(() => {
         const fetchData = () => {
-            const RSS_URL = `https://sweb.ru/export/turbojournal/`;
+            const RSS_URL = ``;
             fetch(RSS_URL)
                 .then(response => response.text())
                 .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
